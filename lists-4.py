@@ -1,17 +1,18 @@
 #User input - convert string provided into list items
 
-split_sentence_list = []
+sentence_list = []
 
 user_input = input("Enter your text: ")
 print(user_input)
-split_sentence_list.extend(user_input.split(" "))
 
-print(split_sentence_list)
+#split into words, separated by space
+sentence_list.extend(user_input.split(" "))
 
-word_1 = split_sentence_list[0]
+print(f"{len(sentence_list)}, {sentence_list}")
 
-word_1.split()
-
+#split by character
+word_list = list(user_input)
+print(f"{len(word_list)}, {word_list}")
 
 
 
