@@ -15,6 +15,9 @@ def format_colour_line(colour_data):
         print(f"{colour[1]:<15}     {colour[2]:<15}     {colour[4]:>}")
     return colour
 
+
+################################################
+
 csv_file = input("Location of csv file: ")
 
 colour_list = read_csv_file(csv_file)
@@ -22,6 +25,8 @@ colour_list = read_csv_file(csv_file)
 
 format_colour = format_colour_line(colour_list)
 # print(format_colour)
+
+# ##############################################
 
 csv_file = input("Location of csv file: ")
 
