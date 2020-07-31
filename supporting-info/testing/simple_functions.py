@@ -3,13 +3,14 @@ def function_1():
 
 
 def function_2():
-    return "Broken output for function 2."
+    return "Correct output for function 2."
 
 
 def function_3(name):
-    return "x = 3"
+    return "x = " + str(name)
 
 
 def function_4(x, y):
-    return x + y
+    # z = float(y)
+    return float(x) + float(y)
 
